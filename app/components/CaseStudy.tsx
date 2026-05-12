@@ -139,12 +139,12 @@ const CaseStudy = () => {
               >
                 <div className="relative aspect-square md:aspect-video w-full">
                   <Image
-                    src="/assets/humaaans-data.png"
+                    src="/assets/data-improvement.png"
                     alt="Data Improvement Illustration"
                     fill
                     className="object-cover rounded-lg opacity-90 group-hover:opacity-100 transition-opacity duration-500"
                   />
-                  
+
                   {/* Overlay for "Live" status to keep the feel of the previous component */}
                   <div className="absolute top-4 right-4 flex items-center gap-2 bg-black/40 backdrop-blur-sm px-2 py-1 rounded-full border border-white/10">
                     {isVisible && (
